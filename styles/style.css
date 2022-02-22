@@ -60,7 +60,7 @@ h2 {
   font-size: 56px;
   line-height: 10px;
   font-family: poppinsmedium;
-  display: block;
+  display: inline-block;
 }
 
 span {
@@ -73,14 +73,8 @@ p {
   font-family: poppinslight;
 }
 
-.meditating {
-  width: 570px;
-}
-
-.love {
-  width: 450px;
-  position: fixed;
-  padding: auto;
+img {
+  width: 580px;
 }
 
 form {

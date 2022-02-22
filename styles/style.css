@@ -47,6 +47,7 @@ a:hover {
 
 h1 {
   font-weight: 200;
+  display: block;
 }
 
 main {
@@ -59,6 +60,7 @@ h2 {
   font-size: 56px;
   line-height: 10px;
   font-family: poppinsmedium;
+  display: block;
 }
 
 span {
@@ -73,16 +75,12 @@ p {
 
 .meditating {
   width: 570px;
-  position: absolute;
-  top: 100px;
-  right: 300px;
 }
 
 .love {
   width: 450px;
-  position: absolute;
-  top: 300px;
-  right: 30px;
+  position: fixed;
+  padding: auto;
 }
 
 form {
